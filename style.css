@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(173, 173, 173);
+    color: #000;
+    border-color: rgb(247, 208, 79);
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+    font-family: "Nunito";
+    background-color: rgb(46, 46, 46);
+    padding: 20px;
+    margin: 570px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.profile h1 {
+    color: rgb(247, 208, 79);
+    font-size: 30px;
+    background-color: rgb(46, 46, 46);
+}
+
+.profile a {
+    background-color: rgb(247, 208, 79);
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px; 
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.profile a:hover{
+    color: #fff;
+}
+
+.profile img {
+    border-radius: 20px;
+    width: 200px;
+    align-items: center;
+}
+
+p {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(46, 46, 46);
+    border-radius: 10px;
+    color: #fff;
+}
